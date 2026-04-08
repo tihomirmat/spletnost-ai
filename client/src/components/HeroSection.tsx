@@ -9,7 +9,7 @@ import { ArrowRight, Zap, Clock, TrendingUp } from "lucide-react";
 import { useEffect, useRef } from "react";
 
 const HERO_BG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663475639595/23zSpdwXTFDw8CXcrctubE/hero-nebula-bg-W3Vd4VgUKaYqktW2u5wSyP.webp";
-const AUTOMATION_VISUAL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663475639595/23zSpdwXTFDw8CXcrctubE/hero-robot-colleague-DT3gkC7NxxguBhbQS6MQYG.webp";
+const AUTOMATION_VISUAL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663475639595/23zSpdwXTFDw8CXcrctubE/hero-robot-office-v2_1221117e.png";
 
 const stats = [
   { icon: Clock, value: "80%", label: "Manj ročnega dela" },
