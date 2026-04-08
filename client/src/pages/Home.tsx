@@ -1,25 +1,37 @@
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { Streamdown } from 'streamdown';
+/* ============================================================
+   SPLETNOST AI – Home Page
+   Design: "Nebula Flow" – Cosmic Luxury + Fluid Tech
+   
+   Sections:
+   1. Navbar (sticky glassmorphism)
+   2. Hero (full-screen nebula bg, stats, CTA)
+   3. Automations (5 key AI automations)
+   4. CTA Banner
+   5. Apps (CRM, Warehouse, Social Media)
+   6. Why Spletnost (stats, reasons, process)
+   7. Contact + Footer
+   ============================================================ */
 
-/**
- * All content in this page are only for example, replace with your own feature implementation
- * When building pages, remember your instructions in Frontend Best Practices, Design Guide and Common Pitfalls
- */
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import AutomationsSection from "@/components/AutomationsSection";
+import AppsSection from "@/components/AppsSection";
+import WhySection from "@/components/WhySection";
+import ContactSection from "@/components/ContactSection";
+import CTABanner from "@/components/CTABanner";
+import TestimonialsSection from "@/components/TestimonialsSection";
+
 export default function Home() {
-  // If theme is switchable in App.tsx, we can implement theme toggling like this:
-  // const { theme, toggleTheme } = useTheme();
-
   return (
-    <div className="min-h-screen flex flex-col">
-      <main>
-        {/* Example: lucide-react for icons */}
-        <Loader2 className="animate-spin" />
-        Example Page
-        {/* Example: Streamdown for markdown rendering */}
-        <Streamdown>Any **markdown** content</Streamdown>
-        <Button variant="default">Example Button</Button>
-      </main>
+    <div className="min-h-screen" style={{ background: "#080B1A" }}>
+      <Navbar />
+      <HeroSection />
+      <AutomationsSection />
+      <CTABanner />
+      <AppsSection />
+      <WhySection />
+      <TestimonialsSection />
+      <ContactSection />
     </div>
   );
 }
