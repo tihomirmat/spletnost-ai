@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
-const LOGO_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663475639595/23zSpdwXTFDw8CXcrctubE/spletnost-logo_55108de5.png";
+const LOGO_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663475639595/23zSpdwXTFDw8CXcrctubE/spletnost-logo-original_ad489d3a.png";
 
 const navLinks = [
   { label: "Avtomatizacije", href: "#avtomatizacije" },
@@ -47,8 +47,8 @@ export default function Navbar() {
             <img
               src={LOGO_URL}
               alt="Spletnost"
-              className="h-8 lg:h-10 w-auto object-contain"
-              style={{ filter: "brightness(0) invert(1)" }}
+              className="h-8 lg:h-10 w-auto object-contain rounded-md"
+              style={{ background: "white", padding: "4px 8px", borderRadius: "6px" }}
             />
           </a>
 

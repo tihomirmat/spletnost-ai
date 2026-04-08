@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { Send, Phone, Mail, MapPin, CheckCircle2 } from "lucide-react";
 
-const LOGO_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663475639595/23zSpdwXTFDw8CXcrctubE/spletnost-logo_55108de5.png";
+const LOGO_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663475639595/23zSpdwXTFDw8CXcrctubE/spletnost-logo-original_ad489d3a.png";
 
 const services = [
   "AI Asistent za stranke (Chatbot)",
@@ -372,10 +372,10 @@ export default function ContactSection() {
             {/* Brand */}
             <div className="md:col-span-2">
               <img
-                src={LOGO_URL}
-                alt="Spletnost"
-                className="h-9 w-auto mb-4"
-                style={{ filter: "brightness(0) invert(1)" }}
+              src={LOGO_URL}
+              alt="Spletnost"
+              className="h-9 w-auto mb-4 rounded-md"
+              style={{ background: "white", padding: "4px 8px", borderRadius: "6px" }}
               />
               <p
                 className="text-white/40 text-sm leading-relaxed max-w-xs"
