@@ -152,7 +152,7 @@ export default function WhySection() {
               className="glass-card rounded-2xl p-6 text-center"
             >
               <div
-                className="text-4xl lg:text-5xl font-black mb-2 gradient-text"
+                className="text-3xl lg:text-5xl font-black mb-2 gradient-text"
                 style={{ fontFamily: "'Montserrat', sans-serif" }}
               >
                 <CountUp target={stat.value} suffix={stat.suffix} />
@@ -191,7 +191,7 @@ export default function WhySection() {
             </span>
           </div>
           <h2
-            className="text-4xl lg:text-5xl font-black text-white mb-5"
+            className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-5"
             style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
             Vaš partner za{" "}

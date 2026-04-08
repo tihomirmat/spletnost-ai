@@ -87,7 +87,7 @@ export default function ContactSection() {
               </div>
 
               <h2
-                className="text-4xl lg:text-5xl font-black text-white mb-5 leading-tight"
+                className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-5 leading-tight"
                 style={{ fontFamily: "'Montserrat', sans-serif" }}
               >
                 Začnimo skupaj

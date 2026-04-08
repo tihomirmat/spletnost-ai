@@ -99,7 +99,7 @@ function AppCard({ app, index }: { app: (typeof apps)[0]; index: number }) {
         </div>
 
         <h3
-          className="text-3xl lg:text-4xl font-black text-white mb-4 leading-tight"
+          className="text-2xl sm:text-3xl lg:text-4xl font-black text-white mb-4 leading-tight"
           style={{ fontFamily: "'Montserrat', sans-serif" }}
         >
           {app.title}
@@ -213,7 +213,7 @@ export default function AppsSection() {
             </span>
           </div>
           <h2
-            className="text-4xl lg:text-5xl font-black text-white mb-5"
+            className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-5"
             style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
             Aplikacije, zgrajene{" "}
@@ -228,7 +228,7 @@ export default function AppsSection() {
         </motion.div>
 
         {/* App cards */}
-        <div className="space-y-24 lg:space-y-32">
+        <div className="space-y-16 lg:space-y-32">
           {apps.map((app, i) => (
             <AppCard key={i} app={app} index={i} />
           ))}

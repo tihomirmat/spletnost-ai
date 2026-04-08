@@ -99,8 +99,8 @@ export default function HeroSection() {
       />
 
       {/* Content */}
-      <div className="container relative z-10 pt-24 pb-16 lg:pt-32 lg:pb-24">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <div className="container relative z-10 pt-24 pb-16 lg:pt-32 lg:pb-24 overflow-x-hidden">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Left: Text */}
           <div>
             {/* Badge */}
@@ -128,7 +128,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="text-5xl lg:text-6xl xl:text-7xl font-black leading-[1.05] mb-6"
+              className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-[1.05] mb-6"
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               <span className="text-white">Avtomatizirajte</span>
@@ -143,7 +143,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.35 }}
-              className="text-lg lg:text-xl text-white/65 leading-relaxed mb-8 max-w-xl"
+              className="text-base lg:text-xl text-white/65 leading-relaxed mb-8 max-w-xl"
               style={{ fontFamily: "'Source Sans 3', sans-serif", fontWeight: 400 }}
             >
               Spletnost vam ponuja 5 ključnih AI avtomatizacij, ki jih vsak podjetnik mora imeti — plus custom aplikacije, ki so zgrajene točno za vaše podjetje.
@@ -154,11 +154,11 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
-              className="flex flex-wrap gap-4 mb-12"
+              className="flex flex-col sm:flex-row gap-3 mb-10"
             >
               <a
                 href="#kontakt"
-                className="btn-primary inline-flex items-center gap-2 px-7 py-3.5 rounded-xl text-base font-bold"
+                className="btn-primary inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-base font-bold w-full sm:w-auto"
                 style={{ fontFamily: "'Montserrat', sans-serif" }}
               >
                 Začnite brezplačno
@@ -166,7 +166,7 @@ export default function HeroSection() {
               </a>
               <a
                 href="#avtomatizacije"
-                className="btn-outline-orange inline-flex items-center gap-2 px-7 py-3.5 rounded-xl text-base font-bold"
+                className="btn-outline-orange inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-base font-bold w-full sm:w-auto"
                 style={{ fontFamily: "'Montserrat', sans-serif" }}
               >
                 Oglejte si storitve
@@ -178,7 +178,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.65 }}
-              className="flex flex-wrap gap-4"
+              className="flex flex-wrap gap-3"
             >
               {stats.map((stat, i) => (
                 <div

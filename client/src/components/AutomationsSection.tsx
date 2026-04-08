@@ -203,12 +203,12 @@ export default function AutomationsSection() {
             </span>
           </div>
           <h2
-            className="text-4xl lg:text-5xl font-black text-white mb-5"
+            className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-5"
             style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
             Avtomatizacije, ki jih{" "}
             <span className="gradient-text">vsak podjetnik</span>
-            <br />
+            <br className="hidden sm:block" />{" "}
             mora imeti
           </h2>
           <p

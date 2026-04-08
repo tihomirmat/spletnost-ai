@@ -47,7 +47,7 @@ export default function CTABanner() {
             </span>
           </div>
           <h2
-            className="text-4xl lg:text-5xl font-black text-white mb-5"
+            className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-5"
             style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
             Vaša konkurenca že{" "}
@@ -61,7 +61,7 @@ export default function CTABanner() {
           >
             Vsak dan brez avtomatizacije je izgubljen čas in denar. Dogovorite se za brezplačen posvet in odkrijte, koliko časa lahko prihranite.
           </p>
-          <div className="flex flex-wrap gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
               href="#kontakt"
               className="btn-primary inline-flex items-center gap-2 px-8 py-4 rounded-xl text-base font-bold"

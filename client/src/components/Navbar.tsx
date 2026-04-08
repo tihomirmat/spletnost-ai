@@ -43,11 +43,11 @@ export default function Navbar() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2 shrink-0">
+          <a href="#" className="flex items-center gap-2 shrink-0 max-w-[160px] sm:max-w-[200px] lg:max-w-none">
             <img
               src={LOGO_URL}
               alt="Spletnost"
-              className="h-10 lg:h-12 w-auto object-contain"
+              className="h-8 sm:h-10 lg:h-12 w-auto object-contain"
             />
           </a>
 
