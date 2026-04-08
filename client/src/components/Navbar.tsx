@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
-const LOGO_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663475639595/23zSpdwXTFDw8CXcrctubE/spletnost-logo-white_9f5fd894.webp";
+const LOGO_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663475639595/23zSpdwXTFDw8CXcrctubE/spletnost-logo-final_766bb446.webp";
 
 const navLinks = [
   { label: "Avtomatizacije", href: "#avtomatizacije" },

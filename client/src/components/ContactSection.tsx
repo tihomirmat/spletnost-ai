@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { Send, Phone, Mail, MapPin, CheckCircle2 } from "lucide-react";
 
-const LOGO_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663475639595/23zSpdwXTFDw8CXcrctubE/spletnost-logo-white_9f5fd894.webp";
+const LOGO_URL = "https://d2xsxph8kpxj0f.cloudfront.net/310519663475639595/23zSpdwXTFDw8CXcrctubE/spletnost-logo-final_766bb446.webp";
 
 const services = [
   "AI Asistent za stranke (Chatbot)",
