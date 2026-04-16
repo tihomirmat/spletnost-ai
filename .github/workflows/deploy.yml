@@ -21,3 +21,5 @@ jobs:
           password: ${{ secrets.FTP_PASS }}
           local-dir: ./dist/public/
           server-dir: /
+
+# trigger redeploy
