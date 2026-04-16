@@ -20,6 +20,4 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           local-dir: ./dist/public/
-          server-dir: /
-
-# trigger redeploy
+          server-dir: /public_html/
